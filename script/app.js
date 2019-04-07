@@ -18,10 +18,4 @@ if ('serviceWorker' in navigator) {
             })
         );
     });
-
-    window.addEventListener('fetch', function(event) {
-        event.respondWith(
-            new Response('bad')
-        );
-    });
 }

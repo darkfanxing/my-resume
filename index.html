@@ -1,123 +1,150 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Darkfanxing's resume</title>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Darkfanxing's resume</title>
 
-        <!-- 引入 css 檔案 -->
-        <link rel="stylesheet" href="./style/main.css" />
-        <link rel="stylesheet" href="./style/reset.css">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KDWZGKZ');</script>
+    <!-- End Google Tag Manager -->
 
-        <!-- 引入 Bootstrap 4 -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <!-- 引入 css 檔案 -->
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/reset.css">
 
-        <!-- 引入 Font Awesome -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- 引入 Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-        <!-- PWA 相關 -->
-        <link rel="manifest" href="manifest.json"> 
-    </head>
+    <!-- 引入 Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-    <body>
-        <div class="container my-5">
-            <!-- 頭像與名字 -->
-            <div class="row head">
-                <div class="col-12">
-                    <div class="card py-3">
-                        <img id="avator" src="./image/myself.jpg" alt="陳季宏的照片">
-                        <h1 class="ml-5">陳季宏</h1>
+    <!-- PWA 相關 -->
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <div class="container my-5">
+        <!-- 頭像與名字 -->
+        <div class="row head">
+            <div class="col-12">
+                <div class="card py-3">
+                    <img id="avator" src="./image/myself.jpg" alt="陳季宏的照片">
+                    <h1 class="ml-5">陳季宏</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- 關於與經歷 -->
+        <div class="row">
+            <!-- 關於 -->
+            <div class="col-md-6">
+                <div class="card">
+                    <h2>About me</h2>
+                    <div class="content">
+                        <p>哈囉，我是陳季宏！</p>
+                        <p>現在是國立臺北科技大學（NTUT）機械系的學生，不過我更喜歡研究程式相關的領域，而目前正往機器學習的方向前進。</p>
+                    </div>
+                    <!-- 社群媒體 -->
+                    <div class="social">
+                        <a href="https://www.facebook.com/darkfanxing" target="_blank">
+                            <i class="fab fa-facebook social-icon"></i>
+                        </a>
+                        <a href="https://github.com/darkfanxing" target="_blank">
+                            <i class="fab fa-github social-icon"></i>
+                        </a>
+                        <a href="mailto:darkfanxing@gmail.com" target="_blank">
+                            <i class="fas fa-envelope social-icon"></i>
+                        </a>
+                        <a href="https://www.instagram.com/eddie_22079991" target="_blank">
+                            <i class="fab fa-instagram social-icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>技能</h2>
+                    <div class="content">
+                        <div>
+                            <span class="badge badge-success">程式語言</span>
+                            <p>Python, JavaScript</p>
+                        </div>
+                        <div>
+                            <span class="badge badge-success">網頁前端</span>
+                            <p>Bootstrap 4, Vue.js, PWA</p>
+                        </div>
+                        <div>
+                            <span class="badge badge-success">製圖</span>
+                            <p>AutoCAD, Inventor</p>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- 關於與經歷 -->
+            <!-- 我的經歷 -->
+            <div class="col-md-6">
+                <div class="card">
+                    <h2>我的經歷</h2>
+                    <div class="content">
+                        <div>
+                            <span class="badge badge-success">現任</span>
+                            <p>北科程式設計研究社（NPC）2st 社長</p>
+                        </div>
+                        <div>
+                            <span class="badge badge-success">現任</span>
+                            <p>北科程式設計研究社（NPC）常駐講師</p>
+                        </div>
+                        <div>
+                            <span class="badge badge-success">03/24/2019</span>
+                            <p>學生計算機年會（SITCON） 場務組機動股 工人</p>
+                        </div>
+                        <div>
+                            <span class="badge badge-success">2017</span>
+                            <p>全國高級中等學校專業群科 106 年專題及創意製作競賽「創意組」佳作</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 作品集 -->
+        <div>
+            <h1 class="text-center mt-5">作品集</h1>
             <div class="row">
-                <!-- 關於 -->
-                <div class="col-md-6">
-                    <div class="card">
-                        <h2>About me</h2>
-                        <div class="content">
-                            <p>哈囉，我是陳季宏！</p>
-                            <p>現在是國立臺北科技大學（NTUT）機械系的學生，不過我更喜歡研究程式相關的領域，而目前正往機器學習的方向前進。</p>
-                        </div>
-                        <!-- 社群媒體 -->
-                        <div class="social">
-                            <a href="https://www.facebook.com/darkfanxing" target="_blank">
-                                <i class="fab fa-facebook social-icon"></i>
-                            </a>
-                            <a href="https://github.com/darkfanxing" target="_blank">
-                                <i class="fab fa-github social-icon"></i>
-                            </a>
-                            <a href="mailto:darkfanxing@gmail.com" target="_blank">
-                                <i class="fas fa-envelope social-icon"></i>
-                            </a>
-                            <a href="https://www.instagram.com/eddie_22079991" target="_blank">
-                                <i class="fab fa-instagram social-icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <h2>技能</h2>
-                        <div class="content">
-                            <div>
-                                <span class="badge badge-success">程式語言</span>
-                                <p>Python, JavaScript</p>
-                            </div>
-                            <div>
-                                <span class="badge badge-success">網頁前端</span>
-                                <p>Bootstrap 4, Vue.js, PWA</p>
-                            </div>
-                            <div>
-                                <span class="badge badge-success">製圖</span>
-                                <p>AutoCAD, Inventor</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 我的經歷 -->
-                <div class="col-md-6">
-                    <div class="card">
-                        <h2>我的經歷</h2>
-                        <div class="content">
-                            <div>
-                                <span class="badge badge-success">現任</span>
-                                <p>北科程式設計研究社（NPC）2st 社長</p>
-                            </div>
-                            <div>
-                                <span class="badge badge-success">現任</span>
-                                <p>北科程式設計研究社（NPC）常駐講師</p>
-                            </div>
-                            <div>
-                                <span class="badge badge-success">03/24/2019</span>
-                                <p>學生計算機年會（SITCON） 場務組機動股 工人</p>
-                            </div>
-                            <div>
-                                <span class="badge badge-success">2017</span>
-                                <p>全國高級中等學校專業群科 106 年專題及創意製作競賽「創意組」佳作</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-4">
+                    <div class="card">新增中owo</div>
                 </div>
             </div>
+        </div>
 
-            <!-- 作品集 -->
-            <div>
-                <h1 class="text-center mt-5">作品集</h1>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">新增中owo</div>
-                    </div>
-                </div>
-            </div>
-    </body>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
 
-    <script src="./script/app.js"></script>
+        <script src="./script/app.js"></script>
+
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDWZGKZ" height="0" width="0"
+                style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+</body>
 
 </html>
