@@ -14,7 +14,7 @@ if ('serviceWorker' in navigator) {
                     }
                 });
 
-                return Promise.all(promiseArr);
+                return Promise.all([self.clients.claim(), promiseArr]);
             })
         );
     });
