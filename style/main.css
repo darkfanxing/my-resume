@@ -14,6 +14,7 @@
 }
 
 
+
 /* 一般設定 */
 
 .container {
@@ -42,4 +43,16 @@
 
 .social-icon {
     color: #28A745;
+}
+
+h5 {
+    margin: 0!important;
+}
+
+hr {
+    height: 1px!important;
+    width: 90%;
+    margin-top: 12px!important;
+    border: none;
+    background: gray;
 }
